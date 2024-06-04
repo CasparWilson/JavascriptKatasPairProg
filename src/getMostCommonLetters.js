@@ -5,7 +5,7 @@
  * 
  * @param {string} inputText 
  * @param {number} numberOfWinners 
- * @returns {object} array of number of Winners many 2-element arrays, consisting of must occurant letters, and the number of times it occurs
+ * @returns {Array<[string, number]>} array of number of Winners many 2-element arrays, consisting of must occurant letters, and the number of times it occurs
  */
 function getMostCommonLetters(inputText, numberOfWinners){
 const countObject = {}
