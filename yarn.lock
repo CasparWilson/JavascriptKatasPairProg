@@ -1818,6 +1818,11 @@ pkg-dir@^4.2.0:
   dependencies:
     find-up "^4.0.0"
 
+prettier@3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.3.0.tgz#d173ea0524a691d4c0b1181752f2b46724328cdf"
+  integrity sha512-J9odKxERhCQ10OC2yb93583f6UnYutOeiV5i0zEDS7UGTdUt0u+y8erxl3lBKvwo/JHyyoEdXjwp4dke9oyZ/g==
+
 pretty-format@^29.0.0, pretty-format@^29.0.2:
   version "29.0.2"
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-29.0.2.tgz#7f7666a7bf05ba2bcacde61be81c6db64f6f3be6"
