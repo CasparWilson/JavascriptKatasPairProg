@@ -1,4 +1,5 @@
 import { getMostCommonLetters } from "./getMostCommonLetters";
+import { test, expect } from "@jest/globals";
 
 test("works one word", () => {
     const inputText = 'hello'
