@@ -3,7 +3,7 @@ import { getMostCommonLetters } from "./getMostCommonLetters";
 test("works one word", () => {
     const inputText = 'hello'
     const numberOfWinners = 3
-    const expected = [['l', 2], ['e', 1, ['h', 1]]]
+    const expected = [['l', 2], ['e', 1], ['h', 1]]
     const result = getMostCommonLetters(inputText, numberOfWinners)
     expect(result).toEqual(expected)
   });
